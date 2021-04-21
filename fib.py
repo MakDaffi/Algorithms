@@ -4,5 +4,8 @@ def fib(n):
         a.append(a[i-1] + a[i - 2])
     print(a[n])
 
+def main():
+    fib(int(input()))
 
-fib(int(input()))
+if __name__ == "__main__":
+    main()
